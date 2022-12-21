@@ -1,9 +1,7 @@
-Boolean landscape=false , portrait=false;
-//
-void displayOrientation() {
-  //Display Orientation Algorithm, see Hello World to copy
-  landscape = true;//Hardcoded for now
-  //
-}//End displayOreintation
-//
-//End Display and Orientation Subprogram
+//Library: use Sketch / Import Library / Add Library / Minim
+import ddf.minim.*;
+import ddf.minim.analysis.*;
+import ddf.minim.effects.*;
+import ddf.minim.signals.*;
+import ddf.minim.spi.*;
+import ddf.minim.ugens.*;
